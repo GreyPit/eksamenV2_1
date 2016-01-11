@@ -10,7 +10,34 @@
 }
 
 .logoPicture {
-	margin-left: 684px;
+	margin-left: 800px;
+	text-align: center;
+	max-height: 150px;
+}
+
+nav.navbar-findcond a { color: #f14444; }
+nav.navbar-findcond ul.navbar-nav a { color: #f14444; border-style: solid; border-width: 0 0 2px 0; border-color: #fff; }
+nav.navbar-findcond ul.navbar-nav a:hover,
+nav.navbar-findcond ul.navbar-nav a:visited,
+nav.navbar-findcond ul.navbar-nav a:focus,
+nav.navbar-findcond ul.navbar-nav a:active { background: #fff; }
+nav.navbar-findcond ul.navbar-nav a:hover { border-color: #f14444; }
+nav.navbar-findcond li.divider { background: #ccc; }
+nav.navbar-findcond button.navbar-toggle { background: #f14444; border-radius: 2px; }
+nav.navbar-findcond button.navbar-toggle:hover { background: #999; }
+nav.navbar-findcond button.navbar-toggle > span.icon-bar { background: #fff; }
+nav.navbar-findcond ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
+nav.navbar-findcond ul.dropdown-menu > li > a { color: #444; }
+nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color: #fff; }
+nav.navbar-findcond span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
+nav.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
+
+.navbar-form {
+	display: none;
+}
+
+.bannerImage {
+	background-image: url("http://static1.squarespace.com/static/555eff2fe4b0fcaf8c8f0c6d/t/559ed9efe4b038021f0cfc69/1436473847121/IMG_4307.JPG?format=1500w");
 	text-align: center;
 }
 
@@ -19,6 +46,7 @@ header {
 	background-color: #9D2429;
 }
 
-footer {
+footer p {
 	background-color: #CCCCCC;
+	text-align: center;
 }
