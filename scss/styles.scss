@@ -1,7 +1,17 @@
-.container-fluid {
+.topContainer {
 	padding-right: 0px !important;
 	padding-left: 0px !important;
 	background-color: #9D2429;
+}
+
+.bannerContainer {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.bottomContainer {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
 }
 
 .logoArea {
@@ -10,8 +20,6 @@
 }
 
 .logoPicture {
-	margin-left: 800px;
-	text-align: center;
 	max-height: 150px;
 }
 
@@ -37,8 +45,10 @@ nav.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #f
 }
 
 .bannerImage {
-	background-image: url("http://static1.squarespace.com/static/555eff2fe4b0fcaf8c8f0c6d/t/559ed9efe4b038021f0cfc69/1436473847121/IMG_4307.JPG?format=1500w");
-	text-align: center;
+	width: 100%;
+	height: 400px;
+	padding: 0px;
+	margin-bottom: 25px;
 }
 
 header {
@@ -46,7 +56,14 @@ header {
 	background-color: #9D2429;
 }
 
+footer {
+	margin-top: 25px;
+}
+
 footer p {
-	background-color: #CCCCCC;
+	background-color: #9D2429;
+	color: white;
 	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 20px;
 }
