@@ -1,0 +1,29 @@
+/* line 1, ../scss/styles.scss */
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  background-color: #9D2429;
+}
+
+/* line 7, ../scss/styles.scss */
+.logoArea {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+/* line 12, ../scss/styles.scss */
+.logoPicture {
+  margin-left: 684px;
+  text-align: center;
+}
+
+/* line 17, ../scss/styles.scss */
+header {
+  margin: 0 auto;
+  background-color: #9D2429;
+}
+
+/* line 22, ../scss/styles.scss */
+footer {
+  background-color: #CCCCCC;
+}
